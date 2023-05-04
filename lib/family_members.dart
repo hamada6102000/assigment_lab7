@@ -48,8 +48,8 @@ class FamilyMembers extends StatelessWidget {
                     padding: const EdgeInsets.only(right: 10),
                     child: GestureDetector(
                       onTap: () {
-                        player.play(DeviceFileSource(
-                            'assets/sounds/family_members/father.wav'));
+                        player.play(AssetSource(
+                            'sounds/family_members/father.wav'));
                       },
                       child: Container(child: Icon(Icons.play_arrow)),
                     ),
@@ -89,8 +89,8 @@ class FamilyMembers extends StatelessWidget {
                     padding: const EdgeInsets.only(right: 10),
                     child: GestureDetector(
                       onTap: () {
-                        player.play(DeviceFileSource(
-                            'assets/sounds/family_members/mother.wav'));
+                        player.play(AssetSource(
+                            'sounds/family_members/mother.wav'));
                       },
                       child: Container(child: Icon(Icons.play_arrow)),
                     ),
@@ -130,8 +130,8 @@ class FamilyMembers extends StatelessWidget {
                     padding: const EdgeInsets.only(right: 10),
                     child: GestureDetector(
                       onTap: () {
-                        player.play(DeviceFileSource(
-                            'assets/sounds/family_members/daughter.wav'));
+                        player.play(AssetSource(
+                            'sounds/family_members/daughter.wav'));
                       },
                       child: Container(child: Icon(Icons.play_arrow)),
                     ),
@@ -171,8 +171,8 @@ class FamilyMembers extends StatelessWidget {
                     padding: const EdgeInsets.only(right: 10),
                     child: GestureDetector(
                       onTap: () {
-                        player.play(DeviceFileSource(
-                            'assets/sounds/family_members/grandfather.wav'));
+                        player.play(AssetSource(
+                            'sounds/family_members/grandfather.wav'));
                       },
                       child: Container(child: Icon(Icons.play_arrow)),
                     ),
@@ -212,8 +212,8 @@ class FamilyMembers extends StatelessWidget {
                     padding: const EdgeInsets.only(right: 10),
                     child: GestureDetector(
                       onTap: () {
-                        player.play(DeviceFileSource(
-                            'assets/sounds/family_members/grandmother.wav'));
+                        player.play(AssetSource(
+                            'sounds/family_members/grandmother.wav'));
                       },
                       child: Container(child: Icon(Icons.play_arrow)),
                     ),
@@ -253,8 +253,8 @@ class FamilyMembers extends StatelessWidget {
                     padding: const EdgeInsets.only(right: 10),
                     child: GestureDetector(
                       onTap: () {
-                        player.play(DeviceFileSource(
-                            'assets/sounds/family_members/olderbrother.wav'));
+                        player.play(AssetSource(
+                            'sounds/family_members/olderbrother.wav'));
                       },
                       child: Container(child: Icon(Icons.play_arrow)),
                     ),
@@ -294,8 +294,8 @@ class FamilyMembers extends StatelessWidget {
                     padding: const EdgeInsets.only(right: 10),
                     child: GestureDetector(
                       onTap: () {
-                        player.play(DeviceFileSource(
-                            'assets/sounds/family_members/oldersister.wav'));
+                        player.play(AssetSource(
+                            'sounds/family_members/oldersister.wav'));
                       },
                       child: Container(child: Icon(Icons.play_arrow)),
                     ),
@@ -335,8 +335,8 @@ class FamilyMembers extends StatelessWidget {
                     padding: const EdgeInsets.only(right: 10),
                     child: GestureDetector(
                       onTap: () {
-                        player.play(DeviceFileSource(
-                            'assets/sounds/family_members/son.wav'));
+                        player.play(AssetSource(
+                            'sounds/family_members/son.wav'));
                       },
                       child: Container(child: Icon(Icons.play_arrow)),
                     ),
@@ -376,8 +376,8 @@ class FamilyMembers extends StatelessWidget {
                     padding: const EdgeInsets.only(right: 10),
                     child: GestureDetector(
                       onTap: () {
-                        player.play(DeviceFileSource(
-                            'assets/sounds/family_members/youngerbrother.wav'));
+                        player.play(AssetSource(
+                            'sounds/family_members/youngerbrother.wav'));
                       },
                       child: Container(child: Icon(Icons.play_arrow)),
                     ),
@@ -417,8 +417,8 @@ class FamilyMembers extends StatelessWidget {
                     padding: const EdgeInsets.only(right: 10),
                     child: GestureDetector(
                       onTap: () {
-                        player.play(DeviceFileSource(
-                            'assets/sounds/family_members/youngersister.wav'));
+                        player.play(AssetSource(
+                            'sounds/family_members/youngersister.wav'));
                       },
                       child: Container(child: Icon(Icons.play_arrow)),
                     ),
